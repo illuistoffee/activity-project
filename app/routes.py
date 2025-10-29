@@ -18,3 +18,9 @@ def login():
 def listings():
    return 'Work in Progress.'
 
+@myapp_obj.route("/listings/<string:ID>")
+def listingsID():
+   return ID 
+
+
+
